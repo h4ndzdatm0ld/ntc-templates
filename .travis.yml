@@ -10,7 +10,8 @@ python:
 sudo: false
 
 install:
-  - "pip install tox"
+  - "~/virtualenv/python3.6/bin/pip install pip setuptools -U"
+  - "~/virtualenv/python3.6/bin/pip install tox"
 
 script:
   - "tox"
