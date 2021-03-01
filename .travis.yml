@@ -10,6 +10,7 @@ python:
 sudo: false
 
 install:
+  - "pip install pip setuptools -U"
   - "pip install tox"
 
 script:
