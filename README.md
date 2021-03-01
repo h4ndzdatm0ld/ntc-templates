@@ -21,7 +21,7 @@ The project can be installed using either Git or PyPI; if you would like to use 
 $ git clone git@github.com:networktocode/ntc-templates.git
 $ 
 # Optional steps to install ntc-templates as a python package
-$ pip install -e ntc-templates/
+$ poetry install
 $ 
 ```
 
